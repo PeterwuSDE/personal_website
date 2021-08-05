@@ -11,7 +11,7 @@ import {
 
 export default function home() {
     return (
-        <div className="App">
+      <div className="App">
         <div className="Hero">
           <div className="background1">
           </div>
