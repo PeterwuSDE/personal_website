@@ -13,7 +13,8 @@ import home from "./pages/home";
 import about from "./pages/about";
 import skills from "./pages/skills";
 import projects from "./pages/projects";
-import funFacts from "./pages/funFacts";
+import experience from './pages/experience';
+import resume from "./pages/resume";
 library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
@@ -22,9 +23,10 @@ function App() {
       <Switch>
         <Route path="/" exact component={home}></Route>
         <Route path="/about" exact component={about}></Route>
-        <Route path="/skills" exact component={skills}></Route>
+        <Route path="/experience" exact component={experience}></Route>
         <Route path="/projects" exact component={projects}></Route>
-        <Route path="/funFacts" exact component={funFacts}></Route>
+        <Route path="/skills" exact component={skills}></Route>
+        <Route path="/resume" exact component={resume}></Route>
       </Switch>
     </Router>
   );

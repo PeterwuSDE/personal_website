@@ -1,0 +1,19 @@
+.Navbar {
+    position: absolute;
+    left: 1000px;
+    width: 800px;
+    height: 46px;
+    top: 40px;
+  }
+  
+ .Navbar .options {
+    padding-left: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 21px;
+    text-decoration: none;
+    color:#64FFDA;
+  }
+  
